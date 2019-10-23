@@ -1,0 +1,20 @@
+{
+    "name": "administrator/helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lyh",
+            "email": "894806814@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Service\\": "src/Service"
+        }
+    }
+}
